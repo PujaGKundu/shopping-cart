@@ -11,3 +11,4 @@ User can add multiple products and same product multiple times
 ## Deployment
 
 ### Live URL
+https://pujak-shopping-cart.netlify.app/

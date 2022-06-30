@@ -4,9 +4,6 @@ import Header from "./Header";
 import Aside from "./Aside";
 import Main from "./Main";
 import Cart from "./Cart";
-import UserInfo from "./UserInfo";
-import PaymentForm from "./PaymentForm";
-import CheckOutPage from "./CheckOutPage";
 import data from "../data.json";
 
 import { UserProvider } from "../Context/UserContext";
@@ -128,15 +125,6 @@ class App extends React.Component {
                     decrementQuantity={this.decrementQuantity}
                     deleteItem={this.deleteItem}
                   />
-                </Route>
-                <Route path="/checkout" exact>
-                  <UserInfo />
-                </Route>
-                <Route path="/payment" exact>
-                  <PaymentForm />
-                </Route>
-                <Route path="/final" exact>
-                  <CheckOutPage />
                 </Route>
               </Switch>
             </div>

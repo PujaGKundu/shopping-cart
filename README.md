@@ -1,4 +1,4 @@
-Shopping Cart Application
+## Shopping Cart Application
 
 User can filter using sizes
 At one time user can select multiple sizes based on that the filtered t-shirts will be visible
@@ -8,5 +8,6 @@ Once clicked the cart will be open and the product will be added
 User can see the total amount
 User can add multiple products and same product multiple times
 
-Deployment
-Live URL
+## Deployment
+
+### Live URL
